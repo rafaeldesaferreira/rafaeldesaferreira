@@ -15,7 +15,7 @@
    --main-color: #033a80;
    --bg-color: #fff;
    --text-color: #0f0c27;
-   --hover: hsl(260, 100%, 51%);
+   --hover: #2e517f;
    --big-font: 3.2rem;
    --medium-font: 1.8rem;
    --p-font: 0.941rem;
@@ -50,7 +50,7 @@
 
  .heading span {
    font-size: var(--p-font);
-   color: rgb(2, 166, 70);
+   color: #2768d9;
  }
 
  header {
@@ -63,7 +63,7 @@
    align-items: center;
    justify-content: space-between;
    background: var(--bg-color);
-   padding: 13px 10%;
+   padding: 1px 10%;
    transition: 0.2s;
    box-shadow: -3px -3px 7px #ffffff73,
      2px 2px 5px rgba(94, 104, 121, 0.288);
@@ -74,14 +74,14 @@
  }
 
  .logo {
-   font-size: 1.61rem;
-   font-weight: 600;
+   font-size: 3rem;
+   font-weight: 900;
    color: var(--text-color);
  }
 
  .logo span {
-   font-size: 1.61rem;
-   font-weight: 600;
+   font-size: 3rem;
+   font-weight: 900;
    color: crimson;
  }
 
@@ -193,7 +193,7 @@
  .about-text p {
    font-size: var(--p-font);
    font-weight: 400;
-   text-align: justify;
+   text-align: initial;
  }
 
  .information {
@@ -422,12 +422,12 @@
  }
 
  .footer-social a i {
-   color: rgb(10, 26, 208);
+   color: #2768d9;
    font-size: 25px;
    margin-left: 10px;
    text-align: center;
    line-height: 40px;
-   background-color: #fff;
+   background-color: transparent;
    border-radius: 50%;
    width: 40px;
    height: 40px;
@@ -441,7 +441,7 @@
  }
 
  .copyright a {
-   color: #22cf91;
+   color: red;
  }
 
  /* For Mobile */
